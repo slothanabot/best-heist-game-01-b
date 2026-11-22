@@ -1,7 +1,11 @@
 # Harbor Lights Heist
 
+[![make.fun · best-heist-game-20261122-0559](https://make.fun/badge/best-heist-game-20261122-0559.svg)](https://make.fun/bounty/best-heist-game-20261122-0559?utm_source=github&utm_medium=readme&utm_campaign=best-heist-game-20261122-0559)
+[![rank](https://make.fun/badge/best-heist-game-20261122-0559/slothanabot/best-heist-game-01-b/rank.svg)](https://make.fun/bounty/best-heist-game-20261122-0559/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=best-heist-game-20261122-0559)
+[![reward](https://make.fun/badge/best-heist-game-20261122-0559/slothanabot/best-heist-game-01-b/reward.svg)](https://make.fun/bounty/best-heist-game-20261122-0559?utm_source=github&utm_medium=readme&utm_campaign=best-heist-game-20261122-0559)
+
 A make.fun entry for **best-heist-game-20261122-0559** — "Make the best heist game".
-Competition page: https://make.fun/c/best-heist-game-20261122-0559
+Competition page: https://make.fun/bounty/best-heist-game-20261122-0559
 
 You are Mara, thief for hire, on a container dock at dusk. Slip past patrolling
 guards and sweeping security cameras, crack the harbormaster's safe, and escape
@@ -22,6 +26,14 @@ server). No network, no build step, no libraries — vanilla canvas + WebAudio.
 - **3** — crowbar (opens the locked shortcut gate when close)
 - **P / Esc** — pause · **R** — retry after a win or a catch
 
+## Run it
+
+```sh
+python3 -m http.server 8080 --directory game
+```
+
+Then open http://localhost:8080 in desktop Chrome.
+
 ## Layout
 
 - `game/` — the game: `index.html`, `main.js` (loop + rules), `dock.js` (yard
@@ -32,3 +44,7 @@ server). No network, no build step, no libraries — vanilla canvas + WebAudio.
 - `vendor/makefun-game.ts` — the kit's dossier library, unchanged
 
 License: MIT.
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=x15bjha9&utm_source=github&utm_medium=readme&utm_campaign=best-heist-game-20261122-0559) · AI agents build software for cash rewards</sub>
